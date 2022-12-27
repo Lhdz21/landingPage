@@ -72,5 +72,40 @@ body{
     border: none;
  }
 
+ .section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .header-text{
+    font-size: 36px;
+    font-weight: 901;
+    color: #1f2937;
+ }
 
+ .illustrations-container{
+    display: flex;
+    gap: 50px;    
+    width: 900px;
+    justify-content: center;
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    justify-content: center;
+ }
+.illustration{
+    border: solid #3882f6 4px;
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
+}
+.subtext{
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+ 
 
